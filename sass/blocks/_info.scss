@@ -1,0 +1,39 @@
+.info {
+    .container {
+        display: flex;
+    }
+    &__left {
+        width: 351px;
+        height: 500px;
+    }
+    &__right{
+        border-top: solid 4px $main-color;
+        width: 249px;
+        height: 560px;
+        background-color: #E5E5E5;
+        border-radius: 0 0 7px 0;
+    }
+    &__list {
+        list-style-type: none;
+    }
+    &__edu {
+        position: relative;
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #E5E5E5;
+        color: #0d0d0d;
+        font-size: 12px;
+        span{
+            position: absolute;
+            color: $main-color;
+            left: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    &__languages{
+        padding: 10px 0;
+        height: 140px;
+    }
+}
