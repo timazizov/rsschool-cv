@@ -1,0 +1,15 @@
+.info {
+    .container {
+        display: flex;
+    }
+    &__left {
+        width: 351px;
+        height: 500px;
+    }
+    &__right{
+        border-top: solid 4px $main-color;
+        width: 249px;
+        height: 500px;
+        background-color: #E5E5E5;;
+    }
+}

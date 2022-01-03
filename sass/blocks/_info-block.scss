@@ -1,0 +1,41 @@
+.info-block {
+    margin: 20px 43px 18px 20px;
+    &_second {
+        margin-top: 36px;
+    }
+    h3 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        color: $main-color;
+    }
+    &__personal {
+        margin-top: 17px;
+    }
+    &__element {
+        position: relative;
+        margin-top: 11px;
+        font-size: 11px;
+        line-height: 13px;
+        font-weight: 400;
+        &_first {
+            margin-top: 0;
+        }
+    }
+    &__wrapper {
+        position: absolute;
+        // -5 only because we have margins (43px)
+        right: -5px;
+        transform: translateX(-50%);
+    }
+    &__round {
+        display: inline-block;
+        height: 8px;
+        width: 8px;
+        border-radius: 50%;
+        background-color: $main-color;
+        &_gray {
+            background-color: gray;
+        }
+    }
+}
