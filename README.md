@@ -1,1 +1,1 @@
-https://timazizov.github.io/rsschool-cv/
+https://timazizov.github.io/rsschool-cv/index.html
