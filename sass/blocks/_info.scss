@@ -10,6 +10,14 @@
         border-top: solid 4px $main-color;
         width: 249px;
         height: 500px;
-        background-color: #E5E5E5;;
+        background-color: #E5E5E5;
+    }
+    &__edu {
+        margin-top: 10px;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #E5E5E5;
+        color: #0d0d0d;
+        font-size: 12px;
     }
 }

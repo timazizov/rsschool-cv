@@ -7,8 +7,12 @@
 .container {
     width: 600px;
     margin: 0 auto;
+    &_left {
+        margin: 20px 20px 10px 43px;
+    }
 }
 
 @import 'blocks/header';
 @import 'blocks/info';
 @import 'blocks/info-block';
+@import 'blocks/headings';
