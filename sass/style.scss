@@ -1,0 +1,12 @@
+@import 'base/variables';
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
